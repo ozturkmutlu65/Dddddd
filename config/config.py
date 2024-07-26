@@ -18,7 +18,7 @@ API_HASH = getenv("API_HASH", "f7f91ad6e6593bd033cb535cace0a9a2")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7227577890:AAGWzWhNg35H-6B5bH4vtNLtkbNohNZ5V3I")
+BOT_TOKEN = getenv("BOT_TOKEN", "7282714112:AAHpcm9PubvANBMRJRgNGpQF3y02XJvEC8Q")
 # Database to save your chats and stats.
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority")
@@ -45,7 +45,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002238574089"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","Pulse Music Bot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","gece müzik Bot")
 
 # Your User ID.
 
