@@ -12,17 +12,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "29904507"))
+API_ID = int(getenv("API_ID", "28428140"))
 
-API_HASH = getenv("API_HASH", "eaa33aa1d9c47b197c3c81a8da988378")
+API_HASH = getenv("API_HASH", "122fed0d1520fea600c25d34b0e902ae")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7342624106:AAHXZpaBf9f5WEvURGdpvBLzTZz1rxpZ2MY")
+BOT_TOKEN = getenv("BOT_TOKEN", "7540507755:AAFxFdmH-ldSB2KQiIZO5zXHBtNplPdYJc4")
 
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madpanel:madboy11@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
@@ -184,7 +184,7 @@ SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 
-STRING1 = getenv("STRING_SESSION", "BAC9UbY9e3fAI4Xc1uUNuOug-qbX_S4K2mWL3oTeHXix_e66d3-rhcX8N-YZZWm1is6hRGAw8-fglHD_pfPiKDwbz13tgwzm8ftOaoiEjS8ZvDM6SQk8pJOEttgFaMlDEhxjEPqp6k7lvoX6LLI8IOtLdKvZbe40kFijmlfCI3MJpF6LKeHQjw8_QW2gBK8Rpzhz2iJhU8AuiuKgHVnlQUvTedQOlI_CBoSkrraaHBEkLlQxGX5iYaoFgtcQE09h82NhbyYBPdvWDlwzHvHPnjKUrJQtET7HTdYG5cwKSPh2ogPNXxr16dsbSEhW8BCKm4umoQ6zHJ3sYaFxKEArw-gTAAAAAas0OEcA")
+STRING1 = getenv("STRING_SESSION", "BAGxx2wAfZ3-gZ7lzMvA-EOxt3z5mYCu-cJ7VBq8lO_LSHyT9_tVT4YpMKNJtCKtBC4i093COymmxrpB9LOnl8xlCXuGocsRINhU_JKFU8u2S5RBN1Jw8jtrEboWxJyjqKN81zwwEmg9D46kLoSl1LrXqQeJG4ZDrJlUZmjlyzYuKTY2nKxQnMyvA5uqyDEwWGFXuzYJ21sbndiarX9qRfR1zetwU09h8Zl5uXOz7hJV0U9LhclPKyXJrIsyIpCwvsF6avAORY2J6jKqI1kNwe5Kp4SJ37uE-vwWK9SKVWg8mqQEk2I3Jc2qAqEgIl9eEGcFMAZNzhEl13U0jygoxZaBZni0cwAAAAG5nKEPAA")
 
 STRING2 = getenv("STRING_SESSION2", None)
 
