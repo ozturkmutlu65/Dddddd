@@ -14,7 +14,7 @@ tg_2 : "Telegram'dan Medya İndirilirken Hata Oluştu."
 
 # Core - Call.py
 call_1 : "Bot, asistan hesabını grubunuza davet etmek için **Yönetici** İzni gerektirir.\n\Lütfen bota davet yetkisi verin."
-call_2 : "**Asistanı Grubunuzda yasaklamışsınız**, lütfen yasağı kaldırın! \nAsistanın bilgileri aşağıda unban yaparsanız tekrar katılabilir. Veya grup ayarlarında çıkarılan kullanıcılar listesinde asistanı bulup engeli kaldırın. Yapamazsanız @MAD1BOY hesabına ulaşın."
+call_2 : "**Asistanı Grubunuzda yasaklamışsınız**, lütfen yasağı kaldırın! \nAsistanın bilgileri aşağıda unban yaparsanız tekrar katılabilir. Veya grup ayarlarında çıkarılan kullanıcılar listesinde asistanı bulup engeli kaldırın. Yapamazsanız @MAD1BOY hesabına ulaşın.\n\n**Asistan Kullanıcı Adı:** @{0}\n**Asistan ID:** {1}"
 call_3 : "Asistan Hesabı sohbetinize katılırken sorun oluştu.\nLütfen @{0} hesabını gruba kendiniz ekleyin veya @MAD1BOY hesabına yazın.\n\n**Sistem Notu**: {1}"
 call_4 : "Bot, asistan hesabını sohbet grubunuza davet etmek için **Kullanıcıları Bağlantı Yoluyla Davet Et** Yetkisi gerektirir.\nLütfen bota davet yetkisi verin."
 call_5 : "**Asistan Hesabı 5 Saniye içinde katılacak.. Lütfen Bekleyin.** 🔮"
@@ -75,15 +75,15 @@ admin_34 : "İleri Sarılırken Hata Oluştu."
 
 # Start
 start_1 : "**Beni {0} Grubunuza Davet Ettiğiniz İçin Teşekkürler.\n{1} Çalışıyor. ❤️‍🔥\n\nHerhangi Bir Yardım Almak İçin Destek Grubumuza Veya Kanalımıza Göz Atın.**"
-start_2 : "**{0}'una Hoş Geldiniz. 🥀\n\nGrubunuza Ekleyerek Sesli Sohbetlerinizde Kaliteli Müzik Dinleyebilirsiniz.**"
-start_3 : "**Beni Grubunuza Davet Ettiğiniz İçin Teşekkürler.**\n\n**Çalışmak için Sadece Sesli sohbetleri Yönetme ve Gruba Davet Etme Yetkisi Vermeniz Yeterlidir.** 🥀"
+start_2 : "**{0}'una Hoş Geldiniz. 🥀\n\n➻ Harika özelliklere sahip, hızlı ve güçlü bir Telegram müzik çalar botu.\n\n Desteklenen Platformlar: </b>  YouTube, Spotify, Resco, Apple Music ve SoundCloud.\n──────────────────\n <b>๏ Modüllerim ve komutlarım hakkında bilgi almak için Yardım düğmesini tıklayın.</b>"
+start_3 : "**Beni Grubunuza Davet Ettiğiniz İçin Teşekkürler.**\n\n**Çalışmak için Sadece Sesli sohbetleri Yönetme ve Gruba Davet Etme Yetkisi Vermeniz Yeterlidir.** 🥀\n\n**Asistan Kullanıcı Adı:** @{1}"
 start_4 : "**{0}'un Sahibi {1} Sohbetinize Katıldı.** 👑"
 start_5 : "**{0}'i Çok Kıymetli {1} Beyefendinin Grubunuza Katıldığını Fark Etti. Kendisine Saygılarımı Sunarım.** 🙏"
 start_6 : "❗️ **Süper Grup Gerekli** ❗️ Lütfen Grubunuzu **Süper Gruba** dönüştürün ve sonra beni tekrar ekleyin. \n\n**Süper grup nasıl yapılır? 1-** Üyeler listesine gelin ve sağ üstteki kalem işaretine basın.\n**2-** Yeni üyeler için sohbet geçmişi ayarını Görünür olarak düzenleyin. Şimdi botu tekrar ekleyebilirsiniz"
-start_7 : "**AcelyaMusic Botun Grup Kapasitesi doldu** \n [Buraya Tıklayarak Yeni Botu Görebilirsiniz]({0})"
+start_7 : "**Pulse Music Botun Grup Kapasitesi doldu** \n [Buraya Tıklayarak Yeni Botu Görebilirsiniz]({0})"
 
 # Help
-help_1 : "**Komutlar ve Öğreticileri Görmek İçin Aşağadaki Butonları Kullanınız 🔮**\n\nGrup Üyelerinin Sadece Oynatma Komutlarını, Grup Adminlerininse Ayrıca Admin Komutlarını İncelemeleri Yeterli Olacaktır. "
+help_1 : "Lütfen bu gruba yönelik kullanıcı yardımı için bir kullanıcı türü seçin.\n \nBot hakkında bilgi almak için İletişime geçin \n <a href={0}></a>  \nDestek @MAD1BOY"
 help_2 : "**Yardım İçin Butona Tıklayın** 🥀"
 
 # Settings
@@ -150,7 +150,7 @@ play_7 : "**Üzgünüm! Şu Anda Birçok Grup Videolu Sohbet Açmış. Sunucu G�
 play_8 : "Geçerli Bir Video Dosyası Uzantısı Değil!\n\n**Desteklenen Biçimler:** {0}"
 play_9 : "Video Dosya Boyutu 1 GB'den Küçük Olmalı. 🥀"
 play_10 : "**Youtube Oynatma Listesi Özelliği**\n\nYoutube Oynatma Listesinin tamamını oynatmak istediğiniz Modu seçin"
-play_11 : "🔮Başlık: **{0}\n\n⏱Süre:** {1} Dakika"
+play_11 : "➲  Yayın başladı |\n\n🔮Başlık: **{0}\n\n⏱Süre:** {1} Dakika"
 play_12 : "**Spotify Oynatma Listeleri**\n\n👤Talep Eden:- {0}"
 play_13 : "**Apple Oynatma Listeleri**\n\n👤Talep Eden:- {0}"
 play_14 : "**URL doğrulanamıyor.**\nBot, bu url'nin şu platformlardan birine ait olup olmadığını merak ediyor: Youtube, AppleMusic, Spotify, Resso ve Soundcloud.\n\nM3u8 veya Uzak Bağlantılar için /stream'i kullanabilirsiniz.."
@@ -158,6 +158,9 @@ play_15 : "**Canlı Yayın Algılandı**\n\nSistemler, stream bağlantınızı c
 play_16 : "Parça ayrıntıları getirilemedi. Başka şarkı deneyin. 🔮"
 play_17 : "Unable to play this type of spotify query!\n\nI can only play spotify tracks, albums, artists and playlists"
 play_18 : "**Aktif Sesli Sohbet Bulunamadı Lütfen Üyeler Kısmına Girip Sağ Üst Köşedeki Üç Noktadan Sesli Sohbet Açın **\n\nAktif Sesli Sohbet Açıksa /restart Komutunu Kullanıp Sesli Sohbeti Kapatıp Yeniden Açın."
+
+
+
 
 
 #Playlist
@@ -250,32 +253,33 @@ L_B_1 : "🔮 Şarkı Sözlerini Şimdi Kontrol Et"
 # Start
 S_B_1 : "🗒 Komutlar"
 S_B_2 : "🔧 Ayarlar"
-S_B_3 : "🎉 Destek Grubu"
-S_B_4 : "🎩 Duyuru"
+S_B_3 : "🎧Acelya Music"
+S_B_4 : "📢 Duyuru"
 S_B_5 : "✚ Beni Grubuna Ekle ✚"
-S_B_6 : "💡 Git Repo"
-S_B_7 : "❤️‍🔥 Developer"
+S_B_6 : "🙋Üye Al"
+S_B_7 : "👨‍💻Geliştirici"
 S_B_8 : "📚 Komutlar Menüsü"
 
 #Help 
+
 H_B_1 : "🏷️Etiket Komutları"
 H_B_2 : "🎮Oyun Komutları"
+
 H_B_3 : "💡Yönetici"
 H_B_4 : "🔮yetki"
-H_B_5 : "✖️Kapat"
-H_B_6 : "🎥Yayın"
-H_B_7 : "❌Kara liste"
-H_B_8 : "📵BLOK"
-H_B_9 : "🎵Kanal Oynatma"
-H_B_10 : "🟥 G-Yasağı"
-H_B_11 : "Döngü ♻️"
-H_B_12 : "🔰sudo"
-H_B_13 : "⚪ Ping"
-H_B_14 : "🎧 Oynat"
-H_B_15 : "🔀 Karıştır"
-H_B_16 : "💬 Geri/İleri"
-H_B_17 : "🔎 indir"
-H_B_18 : "⏭️ Hız"
+H_B_5 : "🎥Yayın"
+H_B_6 : "❌Kara liste"
+H_B_7 : "📵BLOK"
+H_B_8 : "🎵Kanal Oynatma"
+H_B_9 : "🟥 G-Yasağı"
+H_B_10 : "Döngü ♻️"
+H_B_11 : "🔰sudo"
+H_B_12 : "⚪ Ping"
+H_B_13 : "🎧 Oynat"
+H_B_14 : "🔀 Karıştır"
+H_B_15 : "💬 Geri/İleri"
+H_B_16 : "🔎 indir"
+H_B_17 : "⏭️ Hız"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
