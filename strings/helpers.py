@@ -7,71 +7,220 @@
 #
 # All rights reserved.
 
-HELP_1 = """✅**<u>BURDAKİ KOMUTLARI YALNIZCA GRUP ADMİNLERİ KULLANABİLİR:</u>**
+HELP_1 = """
+✶ Etiket Komutları
 
-**Burdaki Komutları Normal Üyelerin De Kullanabilmesi İçin İstediğiniz Kişinin Mesajını Yanıtlayarak /yetkilendir Yazmanız Yeterlidir.**
+» /tag - Tek tek etiketler.
 
-**/duraklat :** Müziği Duraklatır.
-**/devam :** Müziği Devam Ettirir.
-**/atla :** Çalan Müziği Atlar.
-**/dur veya /son :** Müziği Tamamen Durdurur.
-**/karistir :** Sıraya Aldığınız Parçaları Karışık Şekilde Oynatır.
-**/ilerisar :** Müziği İleri Sarar. (Örnek: /ilerisar 15 İle Çalan Müziği 15 Saniye İleri Alabilirsiniz.)
-**/seekback :** Müziği Geri Sarar. (Örnek: /seekback 15 İle Çalan Müziği 15 Saniye Geri Alabilirsiniz.)
-**/restart :** Botu Yeniden Başlatır.
+» /utag - Çoklu etiketler.
 
-✅<u>**Döngü Modu:**</u>
-**/dongu :** Çalan Müziği Döngüye Alıp Tekrar Oynatır. 
-(Örnek: /dongu 3 İle Seste Çalan Müziği 3 Kere Daha Oynatır.)"""
+» /etag - Emoji ile etiketler.
 
+» /igtag - iyi geceler mesajları ile etiketler.
 
-HELP_2 = """✅<u>**OYNATMA KOMUTLARI:**</u>
+» /guntag - günaydın mesajları ile etiketler.
 
-**/oynat veya /play :** Müziği Oynatmaya Yarar.
-**-Örnek Kullanım:** /oynat şarkı İsmi // Veya Oynatmak İstediğiniz Şarkıyı Yanıtlayarak /oynat Yazabilirsiniz.
-(**Örnek:** /oynat Defkhan Kapak Olsun)
+» /btag - Bayrak ile etiketler.
 
-**/voynat veya /vplay :** Videoyu Seste Oynatmaya Yarar.
-**-Örnek Kullanım:** /voynat Video İsmi // Veya Oynatmak İstediğiniz Videoyu Yanıtlayarak /vplay Yazabilirsiniz.
+» /sorutag - Sorularla etiketler.
 
-**/bul [Müzik Adı] veya [Youtube Linki] :** Youtubedan İndirmek İstediğiniz Şarkıyı İndirebilirsiniz.
-(**Örnek:** /bul Defkhan Kapak Olsun)
+» /ktag - Karakter ile etiketler.
 
+» /stag - Sözlerle etiketler.
 
-✅**<u>Oynatma Listeleri:</u>**
-**/playlist :** Oynatma Listenizde Hangi Müziklerin Olduğuna Bakabilirsiniz.
-**/listemisil :** Oynatma Listenizden Silmek İstediğiniz Müziği Seçebilirsiniz.
-**/oynat Komutunu Tek Başına Kullanırsanız:** Oynatma Listeleri Ekranına Ulaşırsınız. """
+» /stop - Etiket işlemini bitirir.
 
+» /chatmode - sohbet özelliğini açar.
 
-HELP_3 = """✅<u>**BOT KOMUTLARI**</u>
+» /slap - Tokat atar.
 
-**/stat :** Bottaki Tüm İstatistikleri Görebilirsiniz. En Çok Müzik Oynatan Gruplar, Kullanıcılar, En Çok Oynatılan Müzikler Ve Daha Fazlası...
+» /soz - Söz atar.
 
-**/sudolist :** Yardım İstemek İçin Bottaki Sudo Kullanıcılarına Ulaşabilirsiniz.
+» /mani - Mani söyler.
 
-**/sarkisozu [Müzik Adı] :** Sözlerine Bakmak İstediğiniz Şarkıyı Arayabilirsiniz.
+» /eros - Eros oku atar.
 
-**/bul [Müzik Adı] veya [Youtube Linki] :** Youtubedan İndirmek İstediğiniz Şarkıyı İndirebilirsiniz.
+» /tokat - birine Tokat atar.
 
-**/video [Müzik Adı] veya [Youtube Linki] :** Youtubedan İndirmek İstediğiniz Videoyu İndirebilirsiniz.
-(**Örnek:** /videoindir Neşet Ertaş Gönül Dağı)
+» /tts - Bir metni sese çevirir
 
-**/sira :** Sırada Olan Müzikler Listesini Görebilirsiniz."""
+» /burc - Burçlarınızı yorumluyorım
 
-HELP_4 = """✅<u>**EKSTRA KOMUTLAR:**</u>
-
-**/start :** Botun Başlatma Panelini Gösterir. 
-
-**/ayarlar :** Ayarlar Menüsüne Ulaşabilirsiniz.
-
-**/yardim :** Botun Yardım Menüsüne Ulaşırsınız.
-
-**/ping :** Ping Süresini CPU Ve RAM Kullanımına Bakabilirsiniz.
 """
 
 
-HELP_5 = """🔰**<u>BURASI ÇOK ÖNEMLİ DEĞİL, SADECE BOT YÖNETİCİLERİ İÇİN BİR REHBER:</u>**
+HELP_2 = """
+🎰 Oyunlar
+
+• /cash - Slot oyununu oynamak için. 🎰
+   Örnek: /cash 50 veya /cash 50 2x
+   ❌ NOT: /cash 50 3x yaptığınızda, çarpan kadar paranız gider.
+
+• /fcash - Futbol oyununu oynamak için. ⚽️
+   Örnek: /fcash 100 veya /fcash 100 3x
+
+• /bcash - Basketbol oyununu oynamak için. 🏀
+   Örnek: /bcash 50 veya /bcash 50 2x
+
+• /bowling - Bowling atar.🎳
+
+• /dart - Ok atar.🎯
+
+• /slap - Tokat atar.👋
+
+• /zar - Zar atarım.
+
+• /para - Yazı tura atarım.
+
+• /gunluk - Günlük alacağınız bonus. 🤩
+
+• /bakiye - Bakiyenizi kontrol etmek için. 💰
+
+• /borc - Birine borç göndermek için. 💸
+   Örnek: /borc [Miktar] [Kullanıcı İD] veya Mesajı Yanıtla.
+
+• /zenginler - En zengin kullanıcıları görmek için. 🤑
+
+🆘 Komutlar: /cash, /fcash ve /bcash Oyunları sadece gruplarda çalışır.
+📌 Oyunları oynamak için bota start vermelisiniz.
+🏷️ @AcelyaMusicBot
+
+"""
+
+
+HELP_3 = """**ADMİN KOMUTLARI:**
+
+**/c** komutlarını kanalda kullanabilmek için, komutların başına **c** ekleyin.
+
+**/pause veya /dur**: Çalan akışı duraklatır.
+**/resume veya /devam**: Duraklatılmış akışı devam ettirir.
+**/skip veya /atla **: Çalan akışı atlar ve sıradaki parçayı çalmaya başlar.
+**/kapat** veya **/son**: Sıradaki parçayı atlar ve çalan akışı sonlandırır.
+**/player**: Etkileşimli bir oynatıcı paneli alır.
+**/queue veya /liste**: Sıradaki parçaların listesini gösterir.
+
+"""
+
+HELP_4 = """**YETKİLİ KULLANICILAR:**
+
+**/auth veya /ver  [kullanıcı adı/kullanıcı_ID]**: Bir kullanıcıyı botun yetkili listesine ekler.
+**/unauth veya /al [kullanıcı adı/kullanıcı_ID]**: Bir kullanıcıyı yetkili kullanıcılar listesinden çıkarır.
+**/authusers veya /yetkili**: Yetkili kullanıcıların listesini gösterir.
+
+
+
+"""
+HELP_5 = """
+
+aklını sevim meyit
+
+"""
+
+
+HELP_6 = """
+✶ Etiket Komutları
+
+» /tag - Tek tek etiketler.
+
+» /utag - Çoklu etiketler.
+
+» /etag - Emoji ile etiketler.
+
+» /igtag - iyi geceler mesajları ile etiketler.
+
+» /guntag - günaydın mesajları ile etiketler.
+
+» /btag - Bayrak ile etiketler.
+
+» /sorutag - Sorularla etiketler.
+
+» /ktag - Karakter ile etiketler.
+
+» /stag - Sözlerle etiketler.
+
+» /stop - Etiket işlemini bitirir.
+
+» /chatmode - sohbet özelliğini açar.
+
+» /slap - Tokat atar.
+
+» /soz - Söz atar.
+
+» /mani - Mani söyler.
+
+» /eros - Eros oku atar.
+
+» /tokat - birine Tokat atar.
+
+» /tts - Bir metni sese çevirir
+
+» /burc - Burçlarınızı yorumluyorım
+
+"""
+
+
+HELP_7 = """
+🎰 Oyunlar
+
+• /cash - Slot oyununu oynamak için. 🎰
+   Örnek: /cash 50 veya /cash 50 2x
+   ❌ NOT: /cash 50 3x yaptığınızda, çarpan kadar paranız gider.
+
+• /fcash - Futbol oyununu oynamak için. ⚽️
+   Örnek: /fcash 100 veya /fcash 100 3x
+
+• /bcash - Basketbol oyununu oynamak için. 🏀
+   Örnek: /bcash 50 veya /bcash 50 2x
+
+• /bowling - Bowling atar.🎳
+
+• /dart - Ok atar.🎯
+
+• /slap - Tokat atar.👋
+
+• /zar - Zar atarım.
+
+• /para - Yazı tura atarım.
+
+• /gunluk - Günlük alacağınız bonus. 🤩
+
+• /bakiye - Bakiyenizi kontrol etmek için. 💰
+
+• /borc - Birine borç göndermek için. 💸
+   Örnek: /borc [Miktar] [Kullanıcı İD] veya Mesajı Yanıtla.
+
+• /zenginler - En zengin kullanıcıları görmek için. 🤑
+
+🆘 Komutlar: /cash, /fcash ve /bcash Oyunları sadece gruplarda çalışır.
+📌 Oyunları oynamak için bota start vermelisiniz.
+🏷️ @AcelyaMusicBot
+
+"""
+
+
+HELP_8 = """**ADMİN KOMUTLARI:**
+
+**/c** komutlarını kanalda kullanabilmek için, komutların başına **c** ekleyin.
+
+**/pause veya /dur**: Çalan akışı duraklatır.
+**/resume veya /devam**: Duraklatılmış akışı devam ettirir.
+**/skip veya /atla **: Çalan akışı atlar ve sıradaki parçayı çalmaya başlar.
+**/kapat** veya **/son**: Sıradaki parçayı atlar ve çalan akışı sonlandırır.
+**/player**: Etkileşimli bir oynatıcı paneli alır.
+**/queue veya /liste**: Sıradaki parçaların listesini gösterir.
+
+"""
+
+HELP_9 = """**YETKİLİ KULLANICILAR:**
+
+**/auth veya /ver  [kullanıcı adı/kullanıcı_ID]**: Bir kullanıcıyı botun yetkili listesine ekler.
+**/unauth veya /al [kullanıcı adı/kullanıcı_ID]**: Bir kullanıcıyı yetkili kullanıcılar listesinden çıkarır.
+**/authusers veya /yetkili**: Yetkili kullanıcıların listesini gösterir.
+
+
+
+"""
+HELP_10 = """🔰**<u>BURASI ÇOK ÖNEMLİ DEĞİL, SADECE BOT YÖNETİCİLERİ İÇİN BİR REHBER:</u>**
 
 /addsudo [Kullanıcı adı veya kullanıcıya yanıt]
 /delsudo [Kullanıcı adı veya kullanıcıya yanıt]
@@ -127,3 +276,6 @@ HELP_5 = """🔰**<u>BURASI ÇOK ÖNEMLİ DEĞİL, SADECE BOT YÖNETİCİLERİ �
 **Örnek:** `/broadcast -user -assistant -pin TestGöktuğ`
 
 """
+
+
+
