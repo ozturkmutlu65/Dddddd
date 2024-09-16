@@ -18,7 +18,7 @@ API_HASH = getenv("API_HASH", "122fed0d1520fea600c25d34b0e902ae")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6851235517:AAEENHKGReO5NOjtzWa3-4y7Z0RxwZoHZas")
+BOT_TOKEN = getenv("BOT_TOKEN", "7090522217:AAH-pCdx7gA4xa5a_1FQ_jJfG7E8FeVQQD4")
 
 # Database to save your chats and stats.
 
@@ -46,7 +46,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002182187594"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","GeceExpress Bot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","AcelyaMusicBot")
 
 # Your User ID.
 
@@ -214,11 +214,20 @@ userstats = {}
 
 clean = {}
 
+votemode = {}
+
+confirmer = {}
+
 autoclean = []
 
 # Images
 
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv(
+     "START_IMG_URL", 
+     "assets/Start.jpeg",
+     
+
+)
 
 PING_IMG_URL = getenv(
 
