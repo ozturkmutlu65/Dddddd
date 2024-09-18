@@ -6,7 +6,7 @@ general_2 : "Hata! Komutun Yanlış Kullanımı."
 general_3 : "İşleminiz Gerçekleşirken Hata Oluştu. **Lütfen Bota Yönetici Yetkisi Verin**.\n\nHata Türü: - {0}"
 general_4 : "Bu sohbet grubunda isimsiz bir yöneticisiniz!\nYönetici Haklarından Kullanıcı Hesabına geri dönün."
 general_5 : "Bu eylemi gerçekleştirmek için sesli sohbet haklarına sahip yönetici olmanız gerekir."
-general_6 : "Bot sesli sohbette yayın yapmıyor. 🥀"
+general_6 : "Bot sesli sohbette yayın yapmıyor. 🤷🏻‍♂️"
 
 # Classes - Telegram.py
 tg_1 : "Bot şu anda indirilenlerle **Aşırı yüklenmiş**. @MAD1BOY hesabına düzeltmesi için bu mesajı bildiriniz.\n\n**Deneme Süresi:** {0} (__beklenen süre__))"
@@ -14,8 +14,8 @@ tg_2 : "Telegram'dan Medya İndirilirken Hata Oluştu."
 
 # Core - Call.py
 call_1 : "Bot, asistan hesabını grubunuza davet etmek için **Yönetici** İzni gerektirir.\n\Lütfen bota davet yetkisi verin."
-call_2 : "**Asistanı Grubunuzda yasaklamışsınız**, lütfen yasağı kaldırın! \nAsistanın bilgileri aşağıda unban yaparsanız tekrar katılabilir. Veya grup ayarlarında çıkarılan kullanıcılar listesinde asistanı bulup engeli kaldırın. Yapamazsanız @MAD1BOY hesabına ulaşın.\n\n**Asistan Kullanıcı Adı:** @{0}\n**Asistan ID:** {1}"
-call_3 : "Asistan Hesabı sohbetinize katılırken sorun oluştu.\nLütfen @{0} hesabını gruba kendiniz ekleyin veya @MAD1BOY hesabına yazın.\n\n**Sistem Notu**: {1}"
+call_2 : "**Asistanı Grubunuzda yasaklamışsınız**, lütfen yasağı kaldırın! \nAsistanın bilgileri aşağıda unban yaparsanız tekrar katılabilir. Veya grup ayarlarında çıkarılan kullanıcılar listesinde asistanı bulup engeli kaldırın. Yapamazsanız @MytSahip hesabına ulaşın.\n\n**Asistan Kullanıcı Adı:** @{0}\n**Asistan ID:** {1}"
+call_3 : "Asistan Hesabı sohbetinize katılırken sorun oluştu.\nLütfen @{0} hesabını gruba kendiniz ekleyin veya @MytSahip hesabına yazın.\n\n**Sistem Notu**: {1}"
 call_4 : "Bot, asistan hesabını sohbet grubunuza davet etmek için **Kullanıcıları Bağlantı Yoluyla Davet Et** Yetkisi gerektirir.\nLütfen bota davet yetkisi verin."
 call_5 : "**Asistan Hesabı 5 Saniye içinde katılacak.. Lütfen Bekleyin.** 🔮"
 call_6 : "**Asistan Hesabı [{0}] Başarıyla Katıldı. ✅\n\nMüzik Şimdi Başlatılıyor.**"
@@ -53,9 +53,9 @@ admin_14 : "Belirli bir numaraya atlamak için sırada en az 2 parça gerekir. /
 admin_15 : "Verdiğiniz değer için sırada yeterli parça yok. Lütfen 1 ile {0} arasında bir sayı seçin"
 admin_16 : "Belirli bir parçaya geçilemedi.\n\nSırayı /sira İle Kontrol Edin"
 admin_17 : "{0}.. Lütfen bekleyin. 🥀"
-admin_18 : "Yönetici Listesi Bulunamadı\n\nLütfen yönetici listesini /admincache veya /reload yoluyla yeniden yükleyin. ❤️‍🩹"
+admin_18 : "Yönetici Listesi Bulunamadı\n\nLütfen yönetici listesini /admincache veya /reload yoluyla yeniden yükleyin. ✅"
 admin_19 : "Bunu gerçekleştirmek için sesli sohbet haklarına sahip yönetici olmanız gerekir.\nZaten yöneticiyseniz, /admincache aracılığıyla admincache'i yeniden yükleyin. 🔮"
-admin_20 : "**Yönetici önbelleği başarıyla yeniden yüklendi.** ❤️‍🩹"
+admin_20 : "**Yönetici önbelleği başarıyla yeniden yüklendi.** 🤝"
 admin_21 : "Sırada karıştırılacak bir şey yok ❌"
 admin_22 : "Karıştırılamadı.\n\nSırayı kontrol edin: /sira"
 admin_23 : "**Sıra Karıştırıldı: {0}**\n\nKarıştırılan sırayı kontrol edin: /sira"
@@ -80,10 +80,10 @@ start_3 : "**Beni Grubunuza Davet Ettiğiniz İçin Teşekkürler.**\n\n**Çalı
 start_4 : "**{0}'un Sahibi {1} Sohbetinize Katıldı.** 👑"
 start_5 : "**{0}'i Çok Kıymetli {1} Beyefendinin Grubunuza Katıldığını Fark Etti. Kendisine Saygılarımı Sunarım.** 🙏"
 start_6 : "❗️ **Süper Grup Gerekli** ❗️ Lütfen Grubunuzu **Süper Gruba** dönüştürün ve sonra beni tekrar ekleyin. \n\n**Süper grup nasıl yapılır? 1-** Üyeler listesine gelin ve sağ üstteki kalem işaretine basın.\n**2-** Yeni üyeler için sohbet geçmişi ayarını Görünür olarak düzenleyin. Şimdi botu tekrar ekleyebilirsiniz"
-start_7 : "**Pulse Music Botun Grup Kapasitesi doldu** \n [Buraya Tıklayarak Yeni Botu Görebilirsiniz]({0})"
+start_7 : "**TgramMuzikBot 'un Grup Kapasitesi doldu** \n [Buraya Tıklayarak Yeni Botu Görebilirsiniz]({0})"
 
 # Help
-help_1 : "Lütfen bu gruba yönelik kullanıcı yardımı için bir kullanıcı türü seçin.\n \nBot hakkında bilgi almak için İletişime geçin \n <a href={0}></a>  \nDestek @MAD1BOY"
+help_1 : "Lütfen bu gruba yönelik kullanıcı yardımı için bir kullanıcı türü seçin.\n \nBot hakkında bilgi almak için İletişime geçin \n <a href={0}></a>  \nDestek için @MytSahip"
 help_2 : "**Yardım İçin Butona Tıklayın** 🥀"
 
 # Settings
@@ -140,7 +140,7 @@ cplay_5 : "Yalnızca Kanallar Desteklenir."
 cplay_6 : "Kanalı bu gruba bağlamak için[{0}] kanalın **Sahibi** olmanız gerekir.\n**Kanal Sahibi:** @{1}\n\nAlternatif olarak grubunuzu o kanala bağlayabilirsiniz. ve ardından `/channelplay bağlantılı ile bağlanmayı deneyin`"
 
 #Play
-play_1 : "🎙️"
+play_1 : "🎶"
 play_2 : "**🏷Kanal Oynatma Modu**\n🔮 Sorgu İşleniyor... Lütfen Bekleyin!\n\n**Bağlı Kanal:** {0}"
 play_3 : "Sorgu İşlenemedi! Başka Bir Parça Oynatmayı Deneyiniz. 🥀"
 play_4 : "🖇 **Yalnızca Yöneticiler Oynatır**\nYalnızca Yöneticiler ve Yetkilendirilmiş Kullanıcılar bu grupta müzik çalabilir.\n\nModu /playmode aracılığıyla değiştirin ve zaten yöneticiyseniz, /admincache aracılığıyla admincache'i yeniden yükleyin"
@@ -253,8 +253,8 @@ L_B_1 : "🔮 Şarkı Sözlerini Şimdi Kontrol Et"
 # Start
 S_B_1 : "🗒 Komutlar"
 S_B_2 : "🔧 Ayarlar"
-S_B_3 : "🎧Acelya Music"
-S_B_4 : "📢 Duyuru"
+S_B_3 : "Myt Sohbet"
+S_B_4 : "📢 Myt Duyuru"
 S_B_5 : "✚ Beni Grubuna Ekle ✚"
 S_B_6 : "🙋Üye Al"
 S_B_7 : "👨‍💻Geliştirici"
@@ -294,7 +294,7 @@ P_B_4 : "🎵 Oynatma Listelerimi Oynat"
 
 #Playlist
 PL_B_1 : "⚡ Oynatma listelerimi oynat"
-PL_B_2 : "❤️‍🩹 Listeme Ekle"
+PL_B_2 : "➕ Listeme Ekle"
 PL_B_3 : "⚙️ Kontrol Paneli"
 PL_B_4 : "📡 Oynatma Modu"
 PL_B_5 : "🔄 Tüm Listeyi Sil"
