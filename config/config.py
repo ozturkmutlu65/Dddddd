@@ -12,17 +12,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "28428140"))
+API_ID = int(getenv("API_ID", "24112185"))
 
-API_HASH = getenv("API_HASH", "122fed0d1520fea600c25d34b0e902ae")
+API_HASH = getenv("API_HASH", "5c67df82ccf93b02179dc019ebc0bd60")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7090522217:AAFNB3AogvJvw-gtib3gf8d3xL-kGF4tAYo")
+BOT_TOKEN = getenv("BOT_TOKEN", "7332183812:AAG07bPbdUs50aviWcDcihVEidbJ-8F8TOQ")
 
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madpanel:madboy11@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://meyitzade3:Meyit4763@cluster0.wm5b9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
@@ -42,27 +42,27 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002182187594"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002175552878"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","AcelyaMusicBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","TgramMuzikBot")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "5901320319").split())
+    map(int, getenv("OWNER_ID", "7242000752").split())
 
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-1f0b9d66-abb4-4a57-b2e6-6967ce74b022")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "geceekspess")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
 # For customized or modified Repository
 
@@ -70,7 +70,7 @@ UPSTREAM_REPO = getenv(
 
     "UPSTREAM_REPO",
 
-    "https://github.com/ArchBots/ArchMusic",
+    "https://github.com/Meyit47zade/MytMzk-",
 
 )
 
@@ -78,17 +78,17 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 # GIT TOKEN ( if your edited repo is private)
 
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 
 SUPPORT_CHANNEL = getenv(
 
-    "SUPPORT_CHANNEL", "https://t.me/AcelyaDuyuru") # Example:- https://t.me/ArchBots
+    "SUPPORT_CHANNEL", "https://t.me/MytDuyuru") # Example:- https://t.me/ArchBots
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", "https://t.me/GeceExpress")  # Example:- https://t.me/ARCH_SUPPORTS
+    "SUPPORT_GROUP", "https://t.me/MytSohbet")  # Example:- https://t.me/ARCH_SUPPORTS
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 
@@ -183,8 +183,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-
-STRING1 = getenv("STRING_SESSION", "BAGxx2wASfTXRD7IVDsBvxAglRj0qssC1oX17mj9PA1uVWO_rWux4PbvBrt2Re_q_517ZdovKp9kH2ukG4PYpovCrJNVwP1eae8HQblWu7QaHv6LD5LdRO2agB445RmxYY-pmXcslgLCOd_WvrfEhedda7jqKZkVie8jeqlIgQecnjOA5Y7IXepSR0d1K5VM6oMXFbGw2fOAVeUVrCLZd1iYZJ-kpH_07T-d9H4W6ysv4pKDjHv-CoR_RwB82xNxjnnRU5cQnsmy4m3opLXEZyiwAYS_Y0awgyem9e98ZqUyz-2Xbb8ctbsyeil2CArmhEslsDzTtyeRN0UTxNclmitUUUDsFgAAAAG39L06AA")
+STRING1 = getenv("STRING_SESSION", "BAFv7DkAofDgzPBi3nvVpJD00U16vkiduh8XFbPFEog9o6BOCiXxdLp3-2cxnWB9DXrs79wVSlvH_bWblq9j2W_xb8tuROhyLEjnuPOMCEcrXr1fgtiEL3hyD6XKsw7puci7HrsI9wW00xcA1S3lnmBNoRvBvLZ9YD8UHsOsHMDgD0nSQeR1ex2g4LbGYNxwmLQ0uDxi_mJth_lODEmilF0UBRX6gZXTygdh5udeI7TIQhbyzuN-1zCuebOl4H4kaOO9nvY4r97LTNK4dRGHEE5HK73wRTlwhR5KIorNOAP34dSaymUrKdgO3eo_tAeQ3TS-XYOQWnUaID4zJyR0skRTw_FQ1gAAAAGANsSaAA")
 
 STRING2 = getenv("STRING_SESSION2", None)
 
@@ -224,7 +223,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
      "START_IMG_URL", 
-     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+     "https://i.imghippo.com/files/RR6Fy1726695292.jpg",
      
 
 )
