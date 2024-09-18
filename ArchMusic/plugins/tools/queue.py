@@ -100,16 +100,16 @@ async def ping_com(client, message: Message, _):
         else:
             IMAGE = get_image(videoid)
     send = (
-        "**⌛️Duration:** Unknown Duration Stream\n\nClick on button below to get whole queued list."
+        "**⌛️Süre:** Bilinmeyen Süre Akışı\n\nTüm sıralanmış listeyi almak için aşağıdaki düğmeye tıklayın."
         if DUR == "Unknown"
-        else "\nClick on button below to get whole queued list."
+        else "\nTüm sıralanmış listeyi almak için aşağıdaki butona tıklayın."
     )
     cap = f"""**{config.MUSIC_BOT_NAME} Player**
 
-🎥**Playing:** {title}
+🎥**Oynatılıyor:** {title}
 
-🔗**Stream Type:** {typo}
-🙍‍♂️**Played By:** {user}
+🔗**Yayın Türü:** {typo}
+🙍‍♂️**Talep eden:** {user}
 {send}"""
     upl = (
         queue_markup(_, DUR, "c" if cplay else "g", videoid)
@@ -206,11 +206,11 @@ async def queued_tracks(client, CallbackQuery: CallbackQuery, _):
     for x in got:
         j += 1
         if j == 1:
-            msg += f'Currently Playing:\n\n🏷Title: {x["title"]}\nDuration: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'Şu anda oynatılıyor:\n\n🏷Başlık: {x["title"]}\nSüre: {x["dur"]}\nTalep Eden: {x["by"]}\n\n'
         elif j == 2:
-            msg += f'Queued:\n\n🏷Title: {x["title"]}\nDuration: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'Sıradaki:\n\n🏷Başlık: {x["title"]}\nSüre: {x["dur"]}\nTalep Eden: {x["by"]}\n\n'
         else:
-            msg += f'🏷Title: {x["title"]}\nDuration: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'🏷Başlık: {x["title"]}\nSüre: {x["dur"]}\nTalep Eden: {x["by"]}\n\n'
     if "Queued" in msg:
         if len(msg) < 700:
             await asyncio.sleep(1)
@@ -280,16 +280,16 @@ async def queue_back(client, CallbackQuery: CallbackQuery, _):
         else:
             IMAGE = get_image(videoid)
     send = (
-        "**⌛️Duration:** Unknown Duration Stream\n\nClick on button below to get whole queued list."
+        "**⌛️Süre:**Bilinmeyen Süre Akışı\n\nTüm sıralanmış listeyi almak için aşağıdaki düğmeye tıklayın."
         if DUR == "Unknown"
-        else "\nClick on button below to get whole queued list."
+        else "\nTüm sıralanmış listeyi almak için aşağıdaki butona tıklayın."
     )
     cap = f"""**{config.MUSIC_BOT_NAME} Player**
 
-🎥**Playing:** {title}
+🎥**Oynatılıyor:** {title}
 
-🔗**Stream Type:** {typo}
-🙍‍♂️**Played By:** {user}
+🔗**Yayın Türü:** {typo}
+🙍‍♂️**Talep eden:** {user}
 {send}"""
     upl = (
         queue_markup(_, DUR, cplay, videoid)
