@@ -224,7 +224,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
      "START_IMG_URL", 
-     "assets/Start.jpeg",
+     "https://i.imghippo.com/files/YwHAF1726476024.jpg",
      
 
 )
@@ -233,7 +233,7 @@ PING_IMG_URL = getenv(
 
     "PING_IMG_URL",
 
-    "assets/Ping.jpeg",
+    "https://i.imghippo.com/files/YwHAF1726476024.jpg",
 
 )
 
