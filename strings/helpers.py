@@ -68,9 +68,9 @@ HELP_2 = """
 
 • /slap - Tokat atar.👋
 
-• /zar - Zar atarım.
+• /zar - Zar atarım.🎲
 
-• /para - Yazı tura atarım.
+• /para - Yazı tura atarım.🪙
 
 • /gunluk - Günlük alacağınız bonus. 🤩
 
@@ -108,18 +108,45 @@ HELP_4 = """
 **/authusers veya /yetkili**: Yetkili kullanıcıların listesini gösterir.
 """
 HELP_5 = """
-**YAYIN YAPMA ÖZELLİĞİ**
+**BAKIM MODU:** [Sadece süper yöneticiler için]
 
-**/broadcast [mesaj veya bir mesaja yanıt]**: Bir mesajı sunucu sohbetlerine yayınlar.
+/logs : Botun aktivitelerinin günlüklerini alır. 📔
 
-Yayın modları:
-**-pin**: Yayınlanan mesajları sunucu sohbetlerinde sabitler.
-**-pinloud**: Yayınlanan mesajları sunucu sohbetlerinde sabitler ve üyelere bildirim gönderir.
-**-user**: Mesajı botunuza başlatan kullanıcılara yayınlar.
-**-assistant**: Botunuzun asistan hesabından mesajı yayınlar.
-**-nobot**: Mesajın yayınlanmasını engeller.
+/logger [enable/disable] : Botun aktivitelerini günlüklemeye başlar/devre dışı bırakır.📝
 
-Örnek: /broadcast -user -assistant -pin Test yayını
+/bakım [enable/disable] : Botun bakım modunu etkinleştirir/devre dışı bırakır. ⚙️
+
+**SUDO KULLANICISI EKLE**
+
+/addsudo : Kullanıcı ekler.
+/delsudo : Kullanıcı siler.
+/sudolist : Kullanıcı listesi
+
+**AKTIF SES KONTROL**
+
+/aktifses : Aktif ses kontrol
+/aktifvideo : Aktif video kontrol
+
+**OYUN KOMUTLARI**
+
+•Global zenginler ve rakipleri gösterir.
+~ /zenginler veya /zengolar 🌐
+
+•Girdiğiniz guruplarda kullanıcılara 
+Tekrar günlük dağıtır.
+~ /jest 🎁
+
+•Bakiye ekler. Örnek: /ebakiye 100
+~ /ebakiye 💰
+
+•Bir kullanıcının bakiyesini siler
+~ /sil 🗑
+
+•Günlük bakiye.
+~ /gunluk🏧
+
+•Birine borç verir. Örnek: /borc 100
+~ /borc 💵
 """
 HELP_6 = """
 **CHAT BLACKLIST ÖZELLİĞİ:** [Sadece süper yöneticiler için]
@@ -166,19 +193,21 @@ Ongoing yayını döngüde başlatır.
 /dongu [1, 2, 3, ...] : Verilen değer için döngüyü etkinleştirir.
 """
 HELP_11 = """
-**BAKIM MODU:** [Sadece süper yöneticiler için]
+**YAYIN YAPMA ÖZELLİĞİ**
 
-/logs : Botun aktivitelerinin günlüklerini alır.
+**/broadcast [mesaj veya bir mesaja yanıt]**: Bir mesajı sunucu sohbetlerine yayınlar.
 
-/logger [enable/disable] : Botun aktivitelerini günlüklemeye başlar/devre dışı bırakır.
+Yayın modları:
+**-pin**: Yayınlanan mesajları sunucu sohbetlerinde sabitler.
+**-pinloud**: Yayınlanan mesajları sunucu sohbetlerinde sabitler ve üyelere bildirim gönderir.
+**-user**: Mesajı botunuza başlatan kullanıcılara yayınlar.
+**-assistant**: Botunuzun asistan hesabından mesajı yayınlar.
+**-nobot**: Mesajın yayınlanmasını engeller.
 
-/maintenance [enable/disable] : Botun bakım modunu etkinleştirir/devre dışı bırakır.
+Örnek: /broadcast -user -assistant -pin Test yayını
 """
 HELP_12 = """
 **PING & STATS:**
-
-/start : Müzik botunu başlatır.
-/help : Komutların açıklamalarıyla yardım menüsünü alır.
 
 /ping : Botun ping ve sistem istatistiklerini gösterir.
 
@@ -193,6 +222,9 @@ HELP_13 = """
 /play , /voynat veya /oynat veya /voynat : Video sohbetinde istenilen parçayı çalmaya başlar.
 
 /playforce veya /voynatforce : Devam eden yayını durdurur ve istenilen parçayı çalmaya başlar.
+
+/playlist : Oynatma listenizi gösterir.
+/listemisil : Oynatma listenizi siler.
 """
 HELP_14 = """
 **SHUFFLE QUEUE:**
