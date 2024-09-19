@@ -230,7 +230,7 @@ queue_3 : "<u>**Sıradaki Parçalar:</u>**  [Sıradaki Parçalara Burdan Bakabil
 queue_4 : "❤️‍🩹 Sıraya eklendi **#{0}\n\n🔮Başlık:** {1}\n**⏱Süre:** {2}\n👤**Talep Eden: {3}**"
 queue_5 : "Sırada Sadece Bir Parça Var, Lütfen Biraz Daha Parça Ekleyin. 🎧"
 
-stream_1 : "╔═⫷❝ 𝙏𝙂𝙍𝘼𝙈 𝙈𝙐𝙕𝙄𝙆 ❞⫸══\n➲Yayın başladı:\n\n🔮 **Şarkınız**:\n {0} \n\n**⌛️ Süre**: {2} \n\n**👤 Talep Eden**: {3} \n╚══════════════════"
+stream_1 : "╔═⫷❝ 𝙏𝙂𝙍𝘼𝙈 𝙈𝙐𝙕𝙄𝙆 ❞⫸══\n\n➲ 𝙔𝘼𝙔𝙄𝙉 𝘽𝘼𝙎𝙇𝘼𝘿𝙄:\n\n🔮 **𝘽𝙄𝙇𝙂𝙄**:\n {0} \n\n**⌛️ 𝙎𝙐𝙍𝙀**: {2} \n\n**👤 Talep Eden**: {3} \n╚═══════════════"
 stream_2 : " **Yayın Başlatıldı** \n**Başlık**: {0}\n**⌛️Süre**: {2}\n**👤Talep Eden**: {3}"
 stream_3 : "🔮**Başlık**: {0}\n**⌛️Süre**: {1}\n**👤Talep Eden**: {2}"
 stream_4 : "🔮**Başlık**: [{0}]\n**⌛️Süre**: {2}\n**👤Talep Eden**: {3}"
