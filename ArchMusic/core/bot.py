@@ -58,7 +58,7 @@ group_commands = [
     BotCommand("futbol", "⚽Kaleye top atar."),
     BotCommand("basket", "🏀Basket atar."),
     BotCommand("para", "🪙Rastgele bir para atın."),
-    BotCommand("para", "😜Rastgele bir şaka gönderin"),
+    BotCommand("saka", "😜Rastgele bir şaka gönderin"),
     BotCommand("tts", "🗣️Bir metni sese çevirir."),
     BotCommand("ping", "📈Bot'un ping değerini gösterir."),
     
