@@ -230,7 +230,7 @@ queue_3 : "<u>**Sıradaki Parçalar:</u>**  [Sıradaki Parçalara Burdan Bakabil
 queue_4 : "❤️‍🩹 Sıraya eklendi **#{0}\n\n🔮Başlık:** {1}\n**⏱Süre:** {2}\n👤**Talep Eden: {3}**"
 queue_5 : "Sırada Sadece Bir Parça Var, Lütfen Biraz Daha Parça Ekleyin. 🎧"
 
-stream_1 : "╔═⫷❝ 𝙏𝙂𝙍𝘼𝙈 𝙈𝙐𝙕𝙄𝙆 ❞⫸\n║\n➲Yayın başladı:|\n║\n║🔮**Şarkınız**:\n{0} \n**║⌛️Süre**: {2}\n**║👤Talep Eden**:\n {3}\n╚═══════════════════"
+stream_1 : "╔═⫷❝ 𝙏𝙂𝙍𝘼𝙈 𝙈𝙐𝙕𝙄𝙆 ❞⫸\n║➲Yayın başladı:|\n ║\n🔮**Şarkınız**:\n〘 {0} 〙\n**║⌛️Süre**:〘 {2} 〙\n**║👤Talep Eden**:\n〘 {3} 〙\n╚═══════════════════"
 stream_2 : " **Yayın Başlatıldı** \n**Başlık**: {0}\n**⌛️Süre**: {2}\n**👤Talep Eden**: {3}"
 stream_3 : "🔮**Başlık**: {0}\n**⌛️Süre**: {1}\n**👤Talep Eden**: {2}"
 stream_4 : "🔮**Başlık**: [{0}]\n**⌛️Süre**: {2}\n**👤Talep Eden**: {3}"
@@ -253,7 +253,7 @@ L_B_1 : "🔮 Şarkı Sözlerini Şimdi Kontrol Et"
 # Start
 S_B_1 : "🗒 Komutlar"
 S_B_2 : "🔧 Ayarlar"
-S_B_3 : "Myt Sohbet"
+S_B_3 : "💬 Myt Sohbet"
 S_B_4 : "📢 Myt Duyuru"
 S_B_5 : "✚ Beni Grubuna Ekle ✚"
 S_B_6 : "🙋Üye Al"
