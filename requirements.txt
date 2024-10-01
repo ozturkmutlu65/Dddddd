@@ -2,6 +2,7 @@ numpy
 aiofiles
 aiohttp
 asyncio
+nodejs==15.0.0
 dnspython
 ffmpeg-python
 gitpython
