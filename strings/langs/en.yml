@@ -80,7 +80,7 @@ start_3 : "**Beni Grubunuza Davet Ettiğiniz İçin Teşekkürler.**\n\n**Çalı
 start_4 : "**{0}'un Sahibi {1} Sohbetinize Katıldı.** 👑"
 start_5 : "**{0}'i Çok Kıymetli {1} Beyefendinin Grubunuza Katıldığını Fark Etti. Kendisine Saygılarımı Sunarım.** 🙏"
 start_6 : "❗️ **Süper Grup Gerekli** ❗️ Lütfen Grubunuzu **Süper Gruba** dönüştürün ve sonra beni tekrar ekleyin. \n\n**Süper grup nasıl yapılır? 1-** Üyeler listesine gelin ve sağ üstteki kalem işaretine basın.\n**2-** Yeni üyeler için sohbet geçmişi ayarını Görünür olarak düzenleyin. Şimdi botu tekrar ekleyebilirsiniz"
-start_7 : "**TgramMuzikBot 'un Grup Kapasitesi doldu** \n [Buraya Tıklayarak Yeni Botu Görebilirsiniz]({0})"
+start_7 : "**ElifMuzikBot 'un Grup Kapasitesi doldu** \n [Buraya Tıklayarak Yeni Botu Görebilirsiniz]({0})"
 
 # Help
 help_1 : "Lütfen bu gruba yönelik kullanıcı yardımı için bir kullanıcı türü seçin.\n \nBot hakkında bilgi almak için İletişime geçin \n <a href={0}></a>  \nDestek için @MytSahip"
@@ -253,8 +253,8 @@ L_B_1 : "🔮 Şarkı Sözlerini Şimdi Kontrol Et"
 # Start
 S_B_1 : "🗒 𝙆𝙊𝙈𝙐𝙏𝙇𝘼𝙍"
 S_B_2 : "🔧 𝘼𝙔𝘼𝙍𝙇𝘼𝙍"
-S_B_3 : "💬 𝙈𝙔𝙏 𝙎𝙊𝙃𝘽𝙀𝙏"
-S_B_4 : "📢 𝙈𝙔𝙏 𝘿𝙐𝙔𝙐𝙍𝙐"
+S_B_3 : "💬 𝘽𝙄𝙕 𝘽𝙄𝙕𝙀 𝙎𝙊𝙃𝘽𝙀𝙏"
+S_B_4 : "📢 𝘿𝙐𝙔𝙐𝙍𝙐"
 S_B_5 : "✚ 𝙂𝙍𝙐𝘽𝙐𝙉𝘼 𝙀𝙆𝙇𝙀 ✚"
 S_B_6 : "🤖 𝙈𝙔𝙏 𝘽𝙊𝙏𝙎"
 S_B_7 : "👨‍💻 𝙊𝙒𝙉𝙀𝙍"
