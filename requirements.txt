@@ -2,7 +2,7 @@ numpy
 aiofiles
 aiohttp
 asyncio
-nodejs
+npm==10.8.2
 dnspython
 ffmpeg-python
 gitpython
