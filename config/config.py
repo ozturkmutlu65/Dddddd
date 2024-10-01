@@ -12,17 +12,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "24112185"))
+API_ID = int(getenv("API_ID", "21207997"))
 
-API_HASH = getenv("API_HASH", "5c67df82ccf93b02179dc019ebc0bd60")
+API_HASH = getenv("API_HASH", "c8264f119aa7dfdf2f05b815b713fabd")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7332183812:AAHpqxtdusAAWwydN_xQdIWRadfUbkdvTPc")
+BOT_TOKEN = getenv("BOT_TOKEN", "6558463329:AAFx_bEQfIvI-kPw0FBBgvzsMsIkwZwnvdk")
 
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://meyitzade3:Meyit4763@cluster0.wm5b9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://gezginbey1:mytmyt4747@cluster0.ha1v0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
@@ -42,17 +42,17 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002175552878"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002352102473))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","TgramMuzikBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","ElifMuzikBot")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "7242000752").split())
+    map(int, getenv("OWNER_ID", "6318415383").split())
 
 )  # Input type must be interger
 
@@ -84,11 +84,11 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
 
-    "SUPPORT_CHANNEL", "https://t.me/MytDuyuru") # Example:- https://t.me/ArchBots
+    "SUPPORT_CHANNEL", "https://t.me/BottDestek") # Example:- https://t.me/ArchBots
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", "https://t.me/MytSohbet")  # Example:- https://t.me/ARCH_SUPPORTS
+    "SUPPORT_GROUP", "https://t.me/bbssohbettt")  # Example:- https://t.me/ARCH_SUPPORTS
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 
@@ -183,7 +183,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BAFv7DkAofDgzPBi3nvVpJD00U16vkiduh8XFbPFEog9o6BOCiXxdLp3-2cxnWB9DXrs79wVSlvH_bWblq9j2W_xb8tuROhyLEjnuPOMCEcrXr1fgtiEL3hyD6XKsw7puci7HrsI9wW00xcA1S3lnmBNoRvBvLZ9YD8UHsOsHMDgD0nSQeR1ex2g4LbGYNxwmLQ0uDxi_mJth_lODEmilF0UBRX6gZXTygdh5udeI7TIQhbyzuN-1zCuebOl4H4kaOO9nvY4r97LTNK4dRGHEE5HK73wRTlwhR5KIorNOAP34dSaymUrKdgO3eo_tAeQ3TS-XYOQWnUaID4zJyR0skRTw_FQ1gAAAAGANsSaAA")
+STRING1 = getenv("STRING_SESSION", "BAFDm70AhwGmJ-OH0JGo0VWWGTtgNBdm_q7jyurcVo_tEfiyiYbPmvikgwDS1H17us2Pok83BBbL4O85jQen27e51XaVTljBoZKfIGAhSlbwu7IqnpoeUYivrstQJCxUGUxMuWobVaSFSXfV8bjizvGTtJQnVSoLzRlkKnf0oyOLZWZKRwLwGhRr3wHqU8EoWBXQyb5xpb0aJ3qPz93SiJZYUSujiqpkYEwlnF9O1_l0_3O-TT3UQkSix92sy8DHQ7NhUApz-1V6Jvl2DiWePoEfWGsr09z09XcsulNo9_P1kw_r0T2Qn94W2irppdHOnQciERYyLToGzVkQStDg2K_G51Tr8AAAAAGLnl_5AA")
 
 STRING2 = getenv("STRING_SESSION2", None)
 
@@ -223,7 +223,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
      "START_IMG_URL", 
-     "https://i.imghippo.com/files/RR6Fy1726695292.jpg",
+     "https://i.imghippo.com/files/dS0EY1726416364.jpg",
      
 
 )
