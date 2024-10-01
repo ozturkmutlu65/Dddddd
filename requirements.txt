@@ -2,7 +2,6 @@ numpy
 aiofiles
 aiohttp
 asyncio
-npm
 dnspython
 ffmpeg-python
 gitpython
@@ -11,10 +10,10 @@ heroku3
 lyricsgenius
 motor
 pillow
-pyrogram
 psutil
 pykeyboard
 py-tgcalls==0.9.7
+pyrogram
 python-dotenv
 pyyaml
 requests
