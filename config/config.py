@@ -52,7 +52,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","ElifMuzikBot")
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "6318415383").split())
+    map(int, getenv("OWNER_ID", "1860611760").split())
 
 )  # Input type must be interger
 
@@ -84,11 +84,11 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
 
-    "SUPPORT_CHANNEL", "https://t.me/BottDestek") # Example:- https://t.me/ArchBots
+    "SUPPORT_CHANNEL", "https://t.me/Gezginduyuru") # Example:- https://t.me/ArchBots
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", "https://t.me/BizBizeSohbetGrubu")  # Example:- https://t.me/ARCH_SUPPORTS
+    "SUPPORT_GROUP", "https://t.me/Keyfisohbettr")  # Example:- https://t.me/ARCH_SUPPORTS
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 
