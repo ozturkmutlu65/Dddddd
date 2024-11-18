@@ -18,17 +18,17 @@ API_HASH = getenv("API_HASH", "622c6c7d4a16ab160758b160786b0be6")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6558463329:AAFx_bEQfIvI-kPw0FBBgvzsMsIkwZwnvdk")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://gezginbey1:mytmyt4747@cluster0.ha1v0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Che4721:Che4721@cluster0.88srl.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
 DURATION_LIMIT_MIN = int(
 
-    getenv("DURATION_LIMIT", "760")
+    getenv("DURATION_LIMIT", "300")
 
 )  # Remember to give value in Minutes
 
@@ -42,17 +42,17 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002352102473))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002290079506 ))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","ElifMuzikBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","tualmusic")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "1860611760").split())
+    map(int, getenv("OWNER_ID", "7423942561").split())
 
 )  # Input type must be interger
 
@@ -70,7 +70,7 @@ UPSTREAM_REPO = getenv(
 
     "UPSTREAM_REPO",
 
-    "https://github.com/Meyit47zade/MytMzk-",
+    "https://github.com/comcom3421/Dddddd",
 
 )
 
