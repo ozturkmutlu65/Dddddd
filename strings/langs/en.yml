@@ -83,7 +83,7 @@ start_6 : "❗️ **Süper Grup Gerekli** ❗️ Lütfen Grubunuzu **Süper Grub
 start_7 : "**tuamusic 'un Grup Kapasitesi doldu** \n [Buraya Tıklayarak Yeni Botu Görebilirsiniz]({0})"
 
 # Help
-help_1 : "Lütfen bu gruba yönelik kullanıcı yardımı için bir kullanıcı türü seçin.\n \nBot hakkında bilgi almak için İletişime geçin \n <a href={0}></a>  \nDestek için @MytSahip"
+help_1 : "Lütfen bu gruba yönelik kullanıcı yardımı için bir kullanıcı türü seçin.\n \nBot hakkında bilgi almak için İletişime geçin \n <a href={0}></a>  \nDestek için @"
 help_2 : "**Yardım İçin Butona Tıklayın** 🥀"
 
 # Settings
@@ -242,8 +242,8 @@ stream_6 : " **𝙔𝘼𝙔𝙄𝙉 𝘽𝘼𝙎𝙇𝘼𝘿𝙄**  \n**Parça**
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "💣𝙆𝘼𝙋𝘼𝙏"
-CLOSEMENU_BUTTON  : "💣𝙆𝘼𝙋𝘼𝙏"
+CLOSE_BUTTON  : "𝙆𝘼𝙋𝘼𝙏"
+CLOSEMENU_BUTTON  : "𝙆𝘼𝙋𝘼𝙏"
 BACK_BUTTON : "⬅  𝙂𝙀𝙍𝙄"
 UNBAN_BUTTON : "🗑 Asistanın yasağını kaldır"
 
@@ -253,7 +253,7 @@ L_B_1 : "🔮 Şarkı Sözlerini Şimdi Kontrol Et"
 # Start
 S_B_1 : "🗒 𝙆𝙊𝙈𝙐𝙏𝙇𝘼𝙍"
 S_B_2 : "🔧 𝘼𝙔𝘼𝙍𝙇𝘼𝙍"
-S_B_3 : "💬 𝘽𝙄𝙕 𝘽𝙄𝙕𝙀 𝙎𝙊𝙃𝘽𝙀𝙏"
+S_B_3 : "💬  𝙎𝙊𝙃𝘽𝙀𝙏"
 S_B_4 : "📢 𝘿𝙐𝙔𝙐𝙍𝙐"
 S_B_5 : "✚ 𝙂𝙍𝙐𝘽𝙐𝙉𝘼 𝙀𝙆𝙇𝙀 ✚"
 S_B_6 : "🤖 TUAL 𝘽𝙊𝙏𝙎"
