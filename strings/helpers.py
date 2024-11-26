@@ -83,7 +83,7 @@ HELP_2 = """
 
 🆘 Komutlar: /cash, /fcash ve /bcash Oyunları sadece gruplarda çalışır.
 📌 Oyunları oynamak için bota start vermelisiniz.
-🏷️ @TgramMuzikBot
+🏷️ 
 
 """
 
