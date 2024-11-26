@@ -18,7 +18,7 @@ API_HASH = getenv("API_HASH", "622c6c7d4a16ab160758b160786b0be6")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "8018888700:AAEzUYgIs0rxvz-5nAmpQ0Uwn9hI18DMAPg")
 
 # Database to save your chats and stats.
 
@@ -42,7 +42,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002290079506 ))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002447179641))
 
 # A name for your Music bot.
 
@@ -52,7 +52,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","tualmusic")
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "7423942561").split())
+    map(int, getenv("OWNER_ID", "8048661070").split())
 
 )  # Input type must be interger
 
