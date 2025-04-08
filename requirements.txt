@@ -8,7 +8,9 @@ gitpython
 hachoir
 heroku3
 httpx==0.27.2
+lyricsgenius
 motor
+numpy
 pillow
 psutil
 py-tgcalls==0.9.7
